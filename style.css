@@ -66,10 +66,6 @@ img {
     color: white;
 }
 
-#mainHead {
-    text-align: center;
-}
-
 .text-block {
     position:absolute;
     top: 50%;
@@ -92,4 +88,66 @@ a:visited {
 
 a:hover {
     color: aqua;
+}
+
+#stevejobs {
+    display: block;
+    float: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.mainHead {
+    font-size: 50px;
+    text-align: center;
+}
+
+#aboutme {
+    font-size: 40px;
+    text-align: center;
+}
+
+.column2 {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 24.3%;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+}
+
+.text-block2 {
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.column3 {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 24.3%;
+}
+
+.row3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+}
+
+.subaboutp {
+    text-align: center;
 }
