@@ -1,3 +1,5 @@
+const body = document.getElementById("body");
+const kcode = document.getElementById("kcode");
 const main = document.getElementById("main");
 const second = document.getElementById("second");
 const konamiCode = ["ArrowUp", "ArrowUp", "ArrowDown", "ArrowDown", "ArrowLeft", "ArrowRight", "ArrowLeft", "ArrowRight", "b", "a", "Enter"];
@@ -14,7 +16,9 @@ document.addEventListener("keydown", function (event) {
 
     if (userArray.length === konamiCode.length && userArray.every((value, index) => value === konamiCode[index])) {
         console.log("finish")
+        kcode.style.display="none"
         main.style.display="none"
         second.style.visibility="visible"
+        body.style.background="#ffcba4"
     }
 });
