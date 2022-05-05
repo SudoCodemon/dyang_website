@@ -150,4 +150,15 @@ a:hover {
 
 .subaboutp {
     text-align: center;
+    font-size: 20px;
+    background-color: #967969;
+    color: black;
+    line-height: 50px;
+}
+
+.goals {
+    line-height: 65px;
+    background-color: #967969;
+    color: white;
+    font-size: 20px;
 }
